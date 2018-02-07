@@ -1,12 +1,13 @@
 package com.theara;
 
+import com.theara.collection_factory_method.service.impl.FactoryMethodTestServiceImpl;
 import com.theara.service.TestService;
 
 public class Main {
 
     public static void main(String[] args) {
 
-
+        doTest(new FactoryMethodTestServiceImpl());
 
     }
 
