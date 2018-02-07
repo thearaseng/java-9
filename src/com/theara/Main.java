@@ -10,7 +10,7 @@ public class Main {
 
     }
 
-    private void doTest(TestService testService) {
+    private static void doTest(TestService testService) {
         testService.test();
     }
 
