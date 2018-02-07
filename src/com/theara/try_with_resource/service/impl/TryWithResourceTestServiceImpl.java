@@ -3,7 +3,7 @@ package com.theara.try_with_resource.service.impl;
 import com.theara.service.TestService;
 import com.theara.try_with_resource.MyResource;
 
-public class TestServiceImpl implements TestService {
+public class TryWithResourceTestServiceImpl implements TestService {
 
     @Override
     public void test() {
